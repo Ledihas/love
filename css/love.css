@@ -63,6 +63,16 @@ body {
     box-sizing: border-box;
 }
 
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    color: #c40908;
+    z-index: 100;
+}
 
 /*---------------------- body_center -------------------------*/
 
@@ -144,8 +154,8 @@ body {
     border-top: 3px solid black;
     transform-origin: left center;
     -webkit-animation: border 312 linear;
-    -o-animation: border 12s linear;
-    animation: border 12s linear;
+    -o-animation: border 6s linear;
+    animation: border 6s linear;
     animation-fill-mode : both;
     /*border-bottom: none;*/
 }
@@ -156,9 +166,9 @@ body {
     float: right;
     border-top: 3px solid red;
     transform-origin: right center;
-    -webkit-animation: border 7s linear 12s;
-    -o-animation: border 7s linear 12s;
-    animation: border 7s linear 12s;
+    -webkit-animation: border 3s linear 6s;
+    -o-animation: border 3s linear 6s;
+    animation: border 3s linear 6s;
     animation-fill-mode : both;
     /*border-bottom: none;*/
 }

@@ -120,8 +120,8 @@ window.onload = function () {
 
         timer = setInterval(() => {
             Next();
-        }, 300);
+        }, 150);
 
 
-    }, 12000);
+    }, 6000);
 };
